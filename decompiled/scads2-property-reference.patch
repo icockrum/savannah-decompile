@@ -1,0 +1,12 @@
+diff --git a/Scads2_vmmisc.hs b/Scads2_vmmisc.hs
+index df5d1eb..faea552 100644
+--- a/Scads2_vmmisc.hs
++++ b/Scads2_vmmisc.hs
+@@ -80,6 +80,7 @@ getTaggedValue 7 = opLIST
+ getTaggedValue 8 = return (C "true")
+ getTaggedValue 9 = opDSTR
+ getTaggedValue 10 = opFUNC
++getTaggedValue 13 = opPROP
+ getTaggedValue _ = return (C "{{{unknown}}}")
+ 
+ 
